@@ -134,3 +134,41 @@
     font-weight: 400;
     margin-top: 5px;
 }
+
+/* Habits section style */
+.Habits{
+    max-width: 1440px;
+    margin: 100px auto 0;
+    text-align: center;
+}
+.habit-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+}
+.habit-img{
+    border-radius: 100%;
+    border: 4px solid rgba(79, 79, 79, 0.627);
+}
+.section-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.section-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+}
+.habit-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.habit-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 10px;
+}
