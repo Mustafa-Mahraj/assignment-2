@@ -345,3 +345,75 @@ hr{
     max-width: 1440px;
     margin: 0 auto;
 }
+
+/*Style for Responsive website */
+
+@media screen and (max-width: 576px) {
+    .display-flax{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: row;
+    }
+    .nav-items{
+        display: none;
+    }
+    .manu-icon{
+        display: block;
+        transform: scale(1.8);
+    }
+    .banner{
+        gap: 30px;
+    }
+    .banner-container{
+        padding: 10px;
+        text-align: start;
+    }
+    .banner-img{
+        margin-left: 50px;
+    }
+    .habit-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .run-img{
+        width: 100%;
+    }
+    .extra-run-container{
+        gap: 80px;
+    }
+    .bmi-contant{
+        gap: 60px;
+    }
+    .counting-bmi{
+        padding: 0px 10px;
+    }
+    .input-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .team-container>img{
+        width: 380px;
+        height: 380px;
+    }
+    .team-container{
+        grid-template-columns: repeat(1, 0fr);
+    }
+    .team-container{
+        gap: 15px;
+        padding: 10px;
+    }
+    .footer-container{
+        align-items: normal;
+        margin: 10px 0 20px 30px;
+    }
+    .footer-title{
+        margin: 25px 0 15px;
+    }
+    .menu-item{
+        padding-left: 20px;
+    }
+    hr{
+        width: 85%;
+    }
+}
