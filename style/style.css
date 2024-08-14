@@ -1,0 +1,136 @@
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+/* related style */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.display-flax{
+    display: flex;
+}
+.btn-primary{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: rgb(230, 83, 60);
+    border: none;
+    border-radius: 40px;
+    width: 180px;
+    height: 40px;
+    padding: 10px 15px;
+    margin-top: 35px;
+}
+.btn-primary:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* header section style */
+.header{
+    background: linear-gradient(180.00deg, rgba(65, 65, 65, 0.938),rgba(119, 119, 119, 0) 100%);
+}
+
+/* Navbar style */
+.nav-items{
+    border: 1px solid rgba(128, 128, 128, 0.551);
+    align-items: center;
+    border-radius: 10px;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.nav-title{
+    font-size: 2.5rem;
+    color: rgb(230, 83, 60);
+    font-weight: 800;
+}
+.nav-list{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    margin-right: 25px;
+    font-weight: 500;
+}
+.nav-btn{
+    background-color: rgb(230, 83, 60);
+    margin-right: 20px;
+    width: 90px;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+}
+.nav-btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.navbar, .banner{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.manu-icon{
+    display: none;
+}
+.Download{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(32, 32, 32, 0.425);
+    margin-left: 12px;
+}
+/* banner section style*/
+
+.banner{
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    text-align: justify;
+}
+#span-family{
+    font-family: "miama";                          
+    font-weight: 400px;
+    font-size: 5rem;
+    row-gap: 1px;
+}
+.banner-title{
+    font-size: 5rem;
+    font-weight: 900;
+    color: white;
+}
+.banner-description{
+    color:  rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+#side-btn-1, #side-btn-2{
+    width: 160px;
+    height: 80px;
+    border: 1px solid  rgba(255, 255, 255, 0);
+    border-radius: 12px;
+    background: rgba(48, 48, 48, 0.54);
+    color: white;
+}
+.banner-img{
+    position: relative;
+}
+#side-btn-1{
+    
+    margin-left: -100px;
+    margin-top: -150px;
+}
+
+.side-btn-number{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.side-btn-title{
+    font-size: 0.9rem;
+    color: rgba(239, 237, 232, 0.65);
+    font-weight: 400;
+    margin-top: 5px;
+}
